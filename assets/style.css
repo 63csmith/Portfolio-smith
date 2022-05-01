@@ -7,16 +7,17 @@ h1{
     justify-content: center;
 }
 
-body{
-    
-}
 header{
     background-color:rgb(88, 88, 88) ;
-    border: solid black 3px;
     
+}
 
-
-
+.headshot-img{
+    height: 10vh;
+    width: 8vh;
+    border-radius: 50%;
+    margin-left: 10vw;
+    
 
 }
 .nav-links{
@@ -25,16 +26,45 @@ header{
     list-style: none;
     text-decoration: none;
     text-shadow: 5px;
-    
-
-
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0px;
 }
 .nav-bar{
     display: block;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.About{
+    font-size: 200% ;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+    z-index: 1;
+    display: block;
+
+}
+
+.main-img{
+    z-index: 0;
+}
+
+.projects{
+    display: flex;
+    margin-top: 0vh;
+    justify-content: center;
+    font-size: 400%;
+    border: solid black 5px;
 
 
+}
 
+.P-all{
+
+}
+@media screen and (max-width: 600px) {}
+.nav-bar { width:100%; 
 }
