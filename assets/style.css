@@ -1,34 +1,34 @@
 h1{
-    font-size: 1.5;
-    color: rgb(255, 255, 255);
+    font-size: 300%;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 2;
 }
 
-header{
-    background-color:rgb(88, 88, 88) ;
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
     
 }
 
 .headshot-img{
-    height: 10vh;
-    width: 8vh;
+    height: 16vh;
+    width: 14vh;
     border-radius: 50%;
-    margin-left: 10vw;
-    
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    z-index: 2;
+    margin-top: 5vh;
 
 }
 .nav-links{
-    background-color: rgb(255, 255, 255);
-    border: solid black 3px;
-    list-style: none;
-    text-decoration: none;
-    text-shadow: 5px;
-    border-left: none;
-    border-right: none;
-    margin-bottom: 0px;
+  display: none;
 }
 .nav-bar{
     display: block;
@@ -37,34 +37,59 @@ header{
     flex-wrap: wrap;
 }
 
+.img-container{
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+
 .About{
     font-size: 200% ;
-    display: flex;
-    justify-content: center;
     background-color: transparent;
-    color: black;
-    z-index: 1;
-    display: block;
-
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.main-img{
-    z-index: 0;
-}
 
 .projects{
     display: flex;
-    margin-top: 0vh;
     justify-content: center;
     font-size: 400%;
-    border: solid black 5px;
-
-
+    border-bottom: solid black 5px;
+    background-image: -o-linear-gradient(purple,pink)
+    ;
 }
 
 .P-all{
+    display: inline;
+
 
 }
-@media screen and (max-width: 600px) {}
-.nav-bar { width:100%; 
+.P2{
+    float: right;
+}
+.P4{
+    float: right;
+}
+@media screen and (min-width: 700px) {}
+.P1{ width:50%;
+}
+@media screen and (min-width: 700px) {}
+
+.P2 {
+    width: 50%;
+}
+@media screen and (min-width: 700px) {}
+
+.P3 {
+    width: 50%;
+}
+@media screen and (min-width: 700px) {}
+
+.P4 {
+    width: 50%;
 }
