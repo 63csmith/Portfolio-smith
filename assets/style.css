@@ -1,23 +1,40 @@
 h1{
-    font-size: 300%;
-    color: whitesmoke;
+    font-size: 1.5;
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    
 }
 header{
-    display: flex;
-    background-color:rgb(97, 118, 71) ;
-    border: solid black 20px;
-    height: 30vh;
+    background-color:rgb(88, 88, 88) ;
+    border: solid black 3px;
+    
+
 
 
 
 }
 .nav-links{
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    border: solid black 3px;
+    list-style: none;
+    text-decoration: none;
+    text-shadow: 5px;
     
+
+
+}
+.nav-bar{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 
 
 }
