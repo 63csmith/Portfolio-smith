@@ -5,68 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
 
   <body>
-    <header class="header">
-      <h1>Christopher Smith</h1>
-      <img
-        src="./assets/Images/headshot.jpg"
-        alt="Headshot photo of Chris Smith"
-        class="headshot-img"
-      />
-      <nav class="nav-bar">
-        <ul class="nav-links">
+    <header>
+      <div class="head">
+        <img class="headshot-img" src="assets/Images/headshot.jpg" alt="" />
+        <h1 class="name">Christopher Smith</h1>
+        <h2 class="wd">Web-Developer in Training</h2>
+        <a class="email" href="">63csmith@gmail.com</a>
+      </div>
+      <nav>
+        <img src="./assets/Images/Smith-logos_black.png" class="logo" alt="" />
+        <ul class="links">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#">Contact me</a></li>
         </ul>
+        <button class="btn">Contact me</button>
       </nav>
     </header>
     <main>
-      <div class="img-container">
-        <img
-          src="./assets/Images/boris-baldinger-VEkIsvDviSs-unsplash.jpg"
-          alt="Misty Mountain Top"
-          class="main-img"
-        />
-        <p class="About">I am a web-developer working out of Colorado.</p>
-      </div>
-      <section class="P-all">
-        <div class="projects">Projects</div>
-        <div class="P1">
-          <img
-            src="./assets/Images/multi-awesome-studio-1_RXnC81jKM-unsplash.jpg"
-          />
+      <section>
+        <div class="about">
+          <h2 class="about-header">About</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea at iure
+            neque dignissimos quis alias quidem quibusdam, id nihil dolores?
+            Deleniti laudantium repudiandae est exercitationem, porro voluptates
+            totam nemo officia.
+          </p>
         </div>
-        <div class="P2">
-          <img
-            src="./assets/Images/multi-awesome-studio-e4wUyMIfcms-unsplash.jpg"
-            alt=""
-          />
-        </div>
-        <div class="P3">
-          <img
-            src="./assets/Images/multi-awesome-studio-tAMX4Ebm42o-unsplash.jpg"
-            alt=""
-          />
-        </div>
-        <div class="P4">
-          <img
-            src="./assets/Images/multi-awesome-studio-XYZ43ObtFHI-unsplash.jpg"
-            alt=""
-          />
-        </div>
+        <section>
+          <h2 class="projects-header">Projects</h2>
+          <section class="projects">
+            <div>
+              <img class="p1" src="./assets/Images/Smith-1.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="p2" src="./assets/Images/Smith-2.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="p3" src="./assets/Images/Smith-3.jpeg" alt="" />
+            </div>
+            <div>
+              <img class="p4" src="./assets/Images/Smith-4.jpeg" alt="" />
+            </div>
+          </section>
+        </section>
       </section>
     </main>
-    <footer class="footer">
-      <h3>Thanks for visiting!</h3>
-      <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Back to the top</li>
+    <footer>
+      <h3 class="thanks">Thanks for stopping by!</h3>
+      <ul class="footer-list">
+        <li><a class="f" href="#">Projects</a></li>
+        <li><a class="f" href="#">Email</a></li>
+        <li><a class="f" href="#">Back to the top</a></li>
       </ul>
     </footer>
   </body>
